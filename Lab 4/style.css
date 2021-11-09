@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+  clear: both;
+  overflow: auto;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.active {
+  color: lime !important;
+}
+
+.content {
+  background-color: darkblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 10px;
+  grid-template-areas: "left right";
+}
+
+.left {
+  grid-area: left;
+  color: white;
+  font-size: 30px;
+  margin-top: 150px;
+  margin-left: 25px;
+}
+
+.left h2 {
+  font-size: 30px;
+}
+
+.right {
+  grid-area: right;
+}
+
+.content2 {
+  background-color: #3cb371;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0 10px;
+  grid-template-areas:
+    "up"
+    "down";
+  font-size: 20px;
+}
+
+.grid2 img {
+  border-radius: 50px;
+  width: 350px;
+  height: 150px;
+}
+
+.up {
+  grid-area: up;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 1fr;
+  gap: 0 10px;
+  grid-template-areas: "left2 right2";
+  margin-top: 15px;
+}
+
+.left2 {
+  grid-area: left2;
+}
+
+.right2 {
+  grid-area: right2;
+}
+
+.down {
+  grid-area: down;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  gap: 0 10px;
+  grid-template-areas: "left3 right3";
+  margin-top: 15px;
+}
+
+.left3 {
+  grid-area: left3;
+}
+
+.right3 {
+  grid-area: right3;
+}
+
+.top-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: lightgreen;
+}
+
+.top-line h1 {
+  margin-top: 10px;
+}
+
+.top-line h3 {
+  margin-top: -15px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.about-content {
+  background-color: #d3d3d3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.about-content h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.about-grid {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 10px;
+  grid-template-areas:
+    "one two three four";
+}
+
+.about-grid h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.about-grid hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.about-grid p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.about-grid img {
+  width: 300px;
+}
+
+.thick {
+  border: none;
+  height: 2px;
+  background-color: black;
+}
+
+.one {
+  grid-area: one;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.two {
+  grid-area: two;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.three {
+  grid-area: three;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.four {
+  grid-area: four;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.contact-content {
+  background-color: #d3d3d3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-content h1 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 1fr;
+  gap: 0 10px;
+  grid-template-areas:
+    "contact-left contact-right";
+}
+
+.contact-right img {
+  width: 500px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.contact-left {
+  grid-area: contact-left;
+}
+
+.contact-right {
+  grid-area: contact-right;
+}
+
+.footer-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.fotter-nav {
+  float: right;
+}
+
+.fotter-nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fotter-nav ul li a {
+  text-decoration: none;
+  color: gray;
+}

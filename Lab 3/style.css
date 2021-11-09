@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E6E6E6;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background-color: white;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  width: 793px;
+  background-image: url(img/navigation-background.jpg);
+  height: 30px;
+  padding: 4px;
+}
+
+nav ul {
+  margin-left: 120px;
+}
+
+nav ul li {
+  font-size: 18px;
+  display: inline;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #ffffff;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+.leaf {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.content {
+  height: 420px;
+}
+
+.left {
+  width: 370px;
+  margin-left: 10px;
+  display: inline-block;
+  color: #192402;
+  text-decoration: bold;
+}
+
+.right {
+  float: right;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.content-img {
+  width: 400px;
+  height: 270px;
+}
+
+.left h1 {
+  color: #92CD00;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.left ol {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.levo {
+  margin-left: 25px;
+}
+
+.zolta {
+  background-color: yellow;
+}
+
+footer {
+  width: 800px;
+  height: 30px;
+  background-color: #81b518;
+  color: #ffffff;
+  text-align: center;
+}

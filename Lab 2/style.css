@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.granica {
+  padding-right: 75px;
+  padding-left: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1{
+  padding-top: 15px;
+}
+.codee {
+  border: 1px dashed gray;
+  color: red;
+  font-family: monospace;
+  font-size: 15px;
+  margin-bottom: 15px;
+
+}
+
+.levo{
+  padding-left: 35px;
+}
+
+.zelena{
+  color: green;
+}
+
+.zolta{
+  color: yellow;
+}
+
+.akva{
+  color: lightblue;
+}
+
+.rozova{
+  color: lightpink;
+}
+
+.centar{
+  text-align: center;
+}
+
+.linija{
+    padding-left: 15px;
+    margin-left: 50px;
+    border-left: 3px solid blue;
+    padding-right: 65px;
+}
+
+.crven{
+  color: red;
+}
+
+.zoltbg{
+  background-color: yellow;
+}
+
+.big{
+  font-size: 15px;
+}

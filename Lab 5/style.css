@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #7ddf96;
+}
+
+ul {
+  float: right;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0 10px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: # 505978;
+  margin-right: 70px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+ul li .active {
+  background-color: #505978;
+  padding-bottom: 2px;
+  color: white;
+  border: 10px solid #505978;
+  border-radius: 4px;
+}
+
+.naslov {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-family: Arial;
+  font-size: 20px;
+  float: left;
+  margin-left: 50px;
+}
+
+.zeleno {
+  color: #80e0a8;
+}
+
+table {
+  margin: auto;
+  table-layout: fixed;
+  width: 90%;
+}
+
+td {
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.inform {
+  width: 95%;
+  margin: 5% auto;
+  background: lightgray;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "top"
+    "bottom";
+}
+
+.top {
+  padding: 1em;
+  grid-area: top;
+}
+
+.bottom {
+  padding: 1em;
+  grid-area: bottom;
+}
+
+.wiki {
+  height: 600px;
+  width: 100%;
+}
+
+.finki {
+  height: 600px;
+  width: 100%;
+}
+
+form {
+  background-color: #f2f2f2;
+  margin: 2% auto;
+  width: 90%;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "left right"
+    "button button"
+  ;
+  padding: 1em;
+  font-size: 20px;
+}
+
+form input, form select {
+  width: 90%;
+  height: 20%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 1em;
+}
+
+form textarea {
+  width: 90%;
+  height: 80%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 1em;
+}
+
+input::placeholder {
+  padding-left: 1em;
+}
+
+textarea::placeholder {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+form button {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  height: 25%;
+  border-radius: 5px;
+  border: 0px solid white;
+  background: #04aa6d;
+  color: white;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.button {
+  grid-area: button;
+}
+
+.file {
+  border: 0px solid white;
+}
+
+.tr1 td {
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+tr td {
+  border: 2px solid black;
+}
+
+form {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
